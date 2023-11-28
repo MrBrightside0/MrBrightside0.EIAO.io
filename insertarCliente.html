@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar Cliente</title>
+</head>
+<body>
+    <h1>Insertar Registro de Cliente</h1>
+
+    <form action="insertarCliente.php" method="post">
+        <label for="nombre_cliente">Nombre:</label>
+        <input type="text" name="nombre_cliente" required>
+
+        <label for="apellido_cliente">Apellido:</label>
+        <input type="text" name="apellido_cliente" required>
+
+        <label for="perfume_comprado">Perfume Comprado:</label>
+        <input type="text" name="perfume_comprado" required>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad" required>
+
+        <label for="numero_telefonico">Número Telefónico:</label>
+        <input type="text" name="numero_telefonico" required>
+
+
+        <input type="submit" value="Insertar">
+    </form>
+
+    <br>
+    <a href="admin-panel.html">Volver al Panel de Administrador</a>
+</body>
+</html>

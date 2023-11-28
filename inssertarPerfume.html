@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar Perfume</title>
+</head>
+<body>
+    <h1>Insertar Registro de Perfume</h1>
+
+    <form action="insertarPerfume.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label for="precio">Precio:</label>
+        <input type="number" name="precio" required>
+
+        <label for="cantidad_disponible">Cantidad Disponible:</label>
+        <input type="number" name="cantidad_disponible" required>
+
+        <label for="vendidos">Vendidos:</label>
+        <input type="number" name="vendidos" required>
+
+        <label for="proveedor">Proveedor:</label>
+        <input type="text" name="proveedor" required>
+
+        <input type="submit" value="Insertar">
+    </form>
+
+    <br>
+    <a href="admin-panel.html">Volver al Panel de Administrador</a>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Perfumes</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="login.html">Iniciar Sesión</a>
+  </nav>
+
+    <section class="main-section">
+        <h2>Iniciar Sesión</h2>
+        <form action="login.php" method="post">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </section>
+    <p>Este acceso es solo para administradores, si eres un cliente regresa a la pagina de <a href="Index.html">inicio</a></p>
+    <footer>
+        <p>&copy; 2023 Tienda de Perfumes</p>
+    </footer>
+</body>
+</html>

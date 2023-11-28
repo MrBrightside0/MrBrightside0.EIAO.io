@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Perfume</title>
+</head>
+<body>
+    <h1>Actualizar Registro de Perfume</h1>
+
+    <form action="actualizarPerfume.php" method="post">
+        <label for="id">ID del Perfume a actualizar:</label>
+        <input type="number" name="id" required>
+
+        <label for="nombre">Nuevo Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label for="precio">Nuevo Precio:</label>
+        <input type="number" name="precio" required>
+
+        <label for="cantidad_disponible">Nueva Cantidad Disponible:</label>
+        <input type="number" name="cantidad_disponible" required>
+
+        <label for="vendidos">Nuevos Vendidos:</label>
+        <input type="number" name="vendidos" required>
+
+        <label for="proveedor">Nuevo Proveedor:</label>
+        <input type="text" name="proveedor" required>
+
+
+
+        <input type="submit" value="Actualizar">
+    </form>
+
+    <br>
+    <a href="admin-panel.html">Volver al Panel de Administrador</a>
+</body>
+</html>
